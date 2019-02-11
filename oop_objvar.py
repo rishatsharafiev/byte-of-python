@@ -1,3 +1,6 @@
+# double underscore prefix such as __privatevar , Python uses name-mangling to effectively make it a private variable.
+
+
 class Robot:
     """Represents a robot, with a name."""
 
