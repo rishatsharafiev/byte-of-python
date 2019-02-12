@@ -114,3 +114,4 @@ db.sqlite3
 
 .proxy
 backup/
+*.txt
