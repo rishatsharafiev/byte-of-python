@@ -1,3 +1,5 @@
+import re
+
 def reverse(text):
     return text[::-1]
 
@@ -7,6 +9,8 @@ def is_palindrome(text):
 
 
 something = input("Enter text: ")
+something = re.sub(r'[^\w]', '', something.lower())
+
 if is_palindrome(something):
     print("Yes, it is a palindrome")
 else:
